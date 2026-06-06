@@ -1,0 +1,241 @@
+
+:root {
+  --marco-guindo: #7a0612;
+  --fondo-oro: #d1af54;
+  --gris-caja: #e5e5e5;
+  --azul-marcador: #2b4c7e;
+  --naranja-progreso: #e29547;
+  --verde-activo: #008751;
+  --cyan-menu: #00adb5;
+}
+
+body,
+html {
+  background-color: #1a1a1a !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Arial", sans-serif !important;
+}
+
+
+.album-book {
+  background-color: #7a0612 !important;
+  padding: 15px !important;
+  border-radius: 20px !important;
+  max-width: 400px;
+  margin: 20px auto !important;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.album-page-content {
+  background-color: #d1af54 !important;
+  border-radius: 14px !important;
+  padding: 15px !important;
+}
+
+
+.content-box-pink {
+  background-color: #f8d7da !important;
+  border-bottom: 4px solid #00adb5 !important;
+  border-radius: 4px !important;
+  padding: 10px !important;
+}
+
+.content-box-grey {
+  background-color: #e5e5e5 !important;
+  border: 2px solid #cccccc !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+}
+
+
+.sticker-card {
+  background: linear-gradient(180deg, #00ffff 0%, #104e5b 100%) !important;
+  border-radius: 12px !important;
+  padding: 10px !important;
+  border: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.sticker-card.missing {
+  background: #969696 !important;
+  border: 2px dashed #4a4a4a !important;
+}
+
+.sticker-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin-bottom: 6px !important;
+}
+
+.sticker-logo-fifa {
+  width: 20px !important;
+  height: 26px !important;
+  object-fit: contain !important;
+}
+
+.sticker-header-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.country-code-vertical {
+  display: flex !important;
+  flex-direction: column !important;
+  font-size: 0.6rem !important;
+  line-height: 1 !important;
+  color: #004b87 !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.sticker-card.missing .country-code-vertical {
+  color: #4a4a4a !important;
+}
+
+.sticker-flag {
+  width: 24px !important;
+  height: 15px !important;
+  object-fit: cover !important;
+}
+
+.sticker-photo-container {
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  overflow: hidden !important;
+  margin-bottom: 6px !important;
+}
+
+.sticker-photo-container img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.sticker-name-box {
+  text-align: center !important;
+  margin-bottom: 6px !important;
+  font-size: 0.75rem !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
+.sticker-name-box .lastname-highlight {
+  color: #38b6ff !important;
+}
+
+.sticker-card.missing .sticker-name-box,
+.sticker-card.missing .sticker-name-box .lastname-highlight {
+  color: #2b2b2b !important;
+}
+
+.btn-status-sticker {
+  width: 100% !important;
+  border: none !important;
+  font-size: 0.7rem !important;
+  font-weight: bold !important;
+  padding: 4px 0 !important;
+  text-transform: uppercase !important;
+  border-radius: 2px !important;
+  cursor: pointer !important;
+}
+
+.btn-status-sticker.obtenida {
+  background-color: #008751 !important;
+  color: #ffffff !important;
+}
+
+.btn-status-sticker.faltante {
+  background-color: #4a4a4a !important;
+  color: #bcbcbc !important;
+}
+
+
+.marcador-estadisticas {
+  background-color: #2b4c7e !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+.marcador-numero {
+  font-size: 1.6rem !important;
+  font-weight: bold !important;
+}
+
+.progreso-circulo-naranja {
+  background-color: #e29547 !important;
+  color: #ffffff !important;
+  width: 85px !important;
+  height: 85px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  font-size: 0.8rem !important;
+  font-weight: bold !important;
+}
+
+.custom-search-input {
+  background-color: #eaeaea !important;
+  border: 2px solid #b0b0b0 !important;
+  border-radius: 4px !important;
+  padding: 6px !important;
+  width: 100% !important;
+}
+
+.btn-filter-country {
+  background-color: #8e8e8e !important;
+  color: white !important;
+  border-radius: 20px !important;
+  padding: 4px 12px !important;
+  font-size: 0.7rem !important;
+  font-weight: bold !important;
+  border: none !important;
+}
+
+.btn-filter-country.active {
+  background-color: #54f13a !important;
+  color: #000000 !important;
+}
+
+.custom-progress-bar-bg {
+  background-color: #ffffff !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  border: 1px solid #b0b0b0 !important;
+  height: 18px !important;
+}
+
+.custom-progress-bar-fill {
+  background-color: #54f13a !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: bold !important;
+  font-size: 0.65rem !important;
+}
+
+@media (min-width: 768px) {
+  .desktop-layout-split {
+    display: flex !important;
+    gap: 15px !important;
+  }
+  .desktop-side-panel {
+    flex: 1 !important;
+  }
+  .desktop-main-panel {
+    flex: 2 !important;
+  }
+}
